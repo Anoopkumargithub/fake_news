@@ -11,7 +11,10 @@
       "128": "icons/icon.png"
     }
   },
-  "permissions": ["activeTab", "scripting"],
+  "permissions": ["activeTab", "scripting", "contextMenus", "notifications"],
+  "background": {
+    "service_worker": "background.js"
+  },
   "icons": {
     "16": "icons/icon.png",
     "48": "icons/icon.png",
